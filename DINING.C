@@ -8,6 +8,8 @@ struct philosp{
     int left;
     int right;
 }Philostatus[10];
+
+//function
 void goForDinner(int philID,int n)
 {
  int otherFork;
