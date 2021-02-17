@@ -1,3 +1,5 @@
+// C Program to implement Dining Philosophers Problem
+
 #include<stdio.h>
 int compltedPhilo = 0,i;
 struct fork{
@@ -84,7 +86,7 @@ void goForDinner(int philID,int n)
 	}
         else{}
 }
-
+//Main Function Start
 int main(){
     int n;
     printf("Enter the number of philosophers:");
@@ -99,3 +101,4 @@ int main(){
     }
     return 0;
 }
+// End Of Program !!
